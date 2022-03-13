@@ -1,7 +1,7 @@
 x = MsgBox("Mise à jour du systeme",4+32+0,"SYSTEME")
-WScript.Sleep(60000)
+WScript.Sleep(6000)
 If x = 6 Then
-commande = "C:\%USERPROFILE%\OneDrive\Documents\go.bat"
+commande = "c:/script\go.bat"
 createobject("wscript.shell").run """"+commande+"""",1,false
 End If
 

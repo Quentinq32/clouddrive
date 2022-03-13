@@ -1,0 +1,4 @@
+copier start.bat et download.vbs dans system32
+
+Lors du lancement de menu.vbs 1 min apres (temps au choix) le fichier start.bat est activer et lance download.vbs 
+pour enregistrer un fichier a lancer au demarrage en execution automatique.
