@@ -1,4 +1,4 @@
-$SMTPServer = 'mail.yahoo.com'
+$SMTPServer = 'smtp.mail.yahoo.com'
 $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 $SMTPInfo.EnableSsl = $true
 $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('ducky.rub@yahoo.com', 'Quentin8985!');
